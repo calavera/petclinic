@@ -1,0 +1,52 @@
+2011-08-03 21:38:29 INFO: No global web.xml found
+2011-08-03 21:38:30 INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+2011-08-03 21:38:30 INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+2011-08-03 21:38:30 INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+2011-08-03 21:38:30 INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+2011-08-03 21:38:30 INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+2011-08-03 21:38:30 INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/fmt is already defined
+2011-08-03 21:38:30 INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/functions is already defined
+2011-08-03 21:38:30 INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+2011-08-03 21:38:30 INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+2011-08-03 21:38:30 INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+2011-08-03 21:38:30 INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+2011-08-03 21:38:30 INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/sql is already defined
+2011-08-03 21:38:30 INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+2011-08-03 21:38:30 INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+2011-08-03 21:38:30 INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/xml is already defined
+2011-08-03 21:38:30 INFO: Initializing Spring root WebApplicationContext
+2011-08-03 21:38:33 INFO: Initializing Spring FrameworkServlet 'petclinic'
+2011-08-03 21:38:35 INFO: Starting ProtocolHandler ["http-bio-3000"]
+2011-08-03 21:38:53 INFO: Pausing ProtocolHandler ["http-bio-3000"]
+2011-08-03 21:38:54 INFO: Stopping service Tomcat
+2011-08-03 21:38:54 INFO: Destroying Spring FrameworkServlet 'petclinic'
+2011-08-03 21:38:54 INFO: Closing Spring root WebApplicationContext
+2011-08-03 21:38:54 SEVERE: The web application [] registered the JDBC driver [org.hsqldb.jdbcDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+2011-08-03 21:38:54 INFO: Stopping ProtocolHandler ["http-bio-3000"]
+2011-08-03 21:38:54 INFO: Destroying ProtocolHandler ["http-bio-3000"]
+2011-08-03 21:41:26 INFO: No global web.xml found
+2011-08-03 21:41:27 INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+2011-08-03 21:41:27 INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+2011-08-03 21:41:27 INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+2011-08-03 21:41:27 INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+2011-08-03 21:41:27 INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+2011-08-03 21:41:27 INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/fmt is already defined
+2011-08-03 21:41:27 INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/functions is already defined
+2011-08-03 21:41:27 INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+2011-08-03 21:41:27 INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+2011-08-03 21:41:27 INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+2011-08-03 21:41:27 INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+2011-08-03 21:41:27 INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/sql is already defined
+2011-08-03 21:41:27 INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+2011-08-03 21:41:27 INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+2011-08-03 21:41:27 INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/xml is already defined
+2011-08-03 21:41:27 INFO: Initializing Spring root WebApplicationContext
+2011-08-03 21:41:30 INFO: Initializing Spring FrameworkServlet 'petclinic'
+2011-08-03 21:41:32 INFO: Starting ProtocolHandler ["http-bio-3000"]
+2011-08-03 21:41:45 INFO: Pausing ProtocolHandler ["http-bio-3000"]
+2011-08-03 21:41:46 INFO: Stopping service Tomcat
+2011-08-03 21:41:46 INFO: Destroying Spring FrameworkServlet 'petclinic'
+2011-08-03 21:41:46 INFO: Closing Spring root WebApplicationContext
+2011-08-03 21:41:46 SEVERE: The web application [] registered the JDBC driver [org.hsqldb.jdbcDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+2011-08-03 21:41:46 INFO: Stopping ProtocolHandler ["http-bio-3000"]
+2011-08-03 21:41:46 INFO: Destroying ProtocolHandler ["http-bio-3000"]
