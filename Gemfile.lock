@@ -1,12 +1,12 @@
 GIT
   remote: git://github.com/trinidad/trinidad.git
-  revision: 7ea27ee82f64fc41d3dcf68cb87353c4909f8a40
+  revision: 9adc0e0abcadc26eb223b9b14802bf018056e149
   branch: java_web_app
   specs:
     trinidad (1.2.3)
       jruby-rack (>= 1.0.9)
       trinidad_jars (>= 1.0.1)
-    trinidad_jars (1.0.1)
+    trinidad_jars (1.0.2)
 
 GEM
   remote: http://rubygems.org/
@@ -18,3 +18,4 @@ PLATFORMS
 
 DEPENDENCIES
   trinidad!
+  trinidad_jars!
