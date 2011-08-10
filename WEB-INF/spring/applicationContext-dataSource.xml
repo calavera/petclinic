@@ -12,6 +12,13 @@
 			http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc.xsd">
 				
 	<!-- ========================= DATASOURCE DEFINITION ========================= -->				
+    <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="location">
+            <value>file:///data/petclinic/current/config/database.yml</value>
+        </property>
+        <property name="propertiesPersister" ref="persister"></property>
+    </bean>
+    <bean id="persister" class="com.engineyard.appcloud.yaml.YamlPropertiesPersister"></bean>
 
 	<!-- Configurer that replaces ${...} placeholders with values from a properties file -->
 	<!-- (in this case, JDBC-related settings for the dataSource definition below) -->
@@ -19,8 +26,8 @@
 
 	<!-- DataSource configuration for Apache Commons DBCP. -->
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close"
-			p:driverClassName="${jdbc.driverClassName}" p:url="${jdbc.url}"
-			p:username="${jdbc.username}" p:password="${jdbc.password}"/>
+      p:driverClassName="com.mysql.jdbc.Driver" p:url="jdbc:mysql://${production.host}:3306/${production.database}"
+			p:username="${production.username}" p:password="${production.password}"/>
 	
 	<!-- JNDI DataSource for JEE environments -->
 	<!--
@@ -30,8 +37,9 @@
 	<!-- Database initializer. If any of the script fails, the initialization stops. -->
 	<!-- As an alternative, for embedded databases see <jdbc:embedded-database/>. -->
 	<jdbc:initialize-database data-source="dataSource">
-		<jdbc:script location="${jdbc.initLocation}"/>
-		<jdbc:script location="${jdbc.dataLocation}"/>
+      <jdbc:script location="classpath:db/mysql/initDB.txt"/>
+      <jdbc:script
+        location="classpath:db/mysql/populateDB.txt"/>
 	</jdbc:initialize-database>
 
 </beans>
