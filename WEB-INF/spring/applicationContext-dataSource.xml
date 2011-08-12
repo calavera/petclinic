@@ -26,7 +26,7 @@
 
 	<!-- DataSource configuration for Apache Commons DBCP. -->
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close"
-      p:driverClassName="com.mysql.jdbc.Driver" p:url="jdbc:mysql://${production.host}:3306/${production.database}"
+      p:driverClassName="com.mysql.jdbc.Driver" p:url="jdbc:mysql://${production.host}:3306/${production.database}?autoReconnect=${production.reconnect}"
 			p:username="${production.username}" p:password="${production.password}"/>
 	
 	<!-- JNDI DataSource for JEE environments -->
